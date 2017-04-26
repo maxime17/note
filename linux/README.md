@@ -16,4 +16,11 @@ userdel -R <user> Supprimer l'utilisateur et son répertoire<br>
 ## Gestion des groupes
 sudo addgroup <NomDuGroupe> --> Créer un groupe<br>
 sudo delgroup <SupprimerUnGroupe> --> Supprimer un groupe<br>
-sudo adduser <NomUtilisateur> <NomGroupe> -->ajouter un utilisateur à un groupe<br>
+sudo adduser <NomUtilisateur> <NomGroupe> --> Ajouter un utilisateur à un groupe<br>
+sudo deluser <nomUtilisateur> --group <NomDuGroupe> --> Supprime l'utilisateur du groupe<br>
+sudo chown -R <NomUtilisateur> <NomGroupe> <DossierouFichier> --> changer les propriétaires et le groupe d'un dossier ou fichier<br>
+
+## gestion des permissions
+
+## Gestion des packages
+sudo vim /etc/apt/sources.list 
